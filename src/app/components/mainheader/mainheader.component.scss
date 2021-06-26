@@ -1,0 +1,35 @@
+.header{
+    margin: 10px 30px;
+    .logo{
+        display: flex;
+        align-items: center;
+       img{
+           height: 80px;
+       }
+    }
+    .btn-header{
+        button{
+            background-color: #9c0303;
+            border-radius: 7px;
+            color: white;
+            font-size: 16px;
+            margin: 10px 10px;
+        }
+
+    }
+    .tabs{
+        ul{
+            color: #9c0303;
+            font-size: 15px;
+            li{
+                list-style: none;
+                float: left;
+                margin: 0px 10px;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

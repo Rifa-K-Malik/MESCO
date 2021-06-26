@@ -1,0 +1,15 @@
+.top-heading{
+    padding: 10px 50px;
+    background-color: black;
+    color: rgb(212, 212, 212);
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+    .icons{
+       
+        img{
+            margin-left: 15px;
+            cursor: pointer;
+        }
+    }
+}

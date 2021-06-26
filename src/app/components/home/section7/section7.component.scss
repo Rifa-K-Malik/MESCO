@@ -1,0 +1,30 @@
+.map{
+    background-image: url("/assets/img/mapbg.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 150px;
+    
+}
+.rightcontent{
+    color: white;
+    font-size: 16px;
+    h1{
+        font-size: 35px;
+        font-weight: bold;
+        letter-spacing: 0.1px;
+        margin-bottom: 40px;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+.f20{
+    font-size: 20px;
+    font-weight: 500;
+}
+.add    {
+    text-align: center;
+    margin: auto;
+}
