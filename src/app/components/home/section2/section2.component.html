@@ -1,8 +1,7 @@
 <div class="events">
     <h2>Latest Events</h2>
-    <div class="img">
-        <img src="assets/img/events/Event1.jpg" alt="">
-        <img src="assets/img/events/Event10.jpg" alt="">
-        <img src="assets/img/events/Event11.jpg" alt="">
+    <div class="img" *ngFor="let item of images">
+        <img [src]="item" alt="">
     </div>
+
 </div>

@@ -1,3 +1,19 @@
+
 <div class="slider">
-    <img src="assets/img/EducationAid.jpg">
+    <div class="wholeCarousel">
+        <owl-carousel-o [options]="customOptions" #owlCar1>
+
+            <ng-container *ngFor="let item of images">
+                <ng-template carouselSlide>
+                    <div class="slide">
+                        <img [src]="item" style="height: 400px;" alt="">
+                    </div>
+                </ng-template>
+
+            </ng-container>
+
+
+        </owl-carousel-o>
+    </div>
+
 </div>

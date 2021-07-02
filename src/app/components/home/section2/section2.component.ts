@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Section2Component implements OnInit {
 
+  images : any = [
+    "assets/img/events/Event1.jpg",
+    "assets/img/events/Event10.jpg",
+    "assets/img/events/Event11.jpg",
+  ]
+
   constructor() { }
 
   ngOnInit(): void {

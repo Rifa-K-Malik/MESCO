@@ -16,6 +16,7 @@ import { Section4Component } from './components/home/section4/section4.component
 import { Section5Component } from './components/home/section5/section5.component';
 import { Section6Component } from './components/home/section6/section6.component';
 import { Section7Component } from './components/home/section7/section7.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { Section7Component } from './components/home/section7/section7.component
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
