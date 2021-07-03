@@ -1,7 +1,13 @@
 <div class="events">
     <h2>Latest Events</h2>
-    <div class="img" *ngFor="let item of images">
-        <img [src]="item" alt="">
+    <div class="img">
+        <div *ngFor="let item of images" class="position">
+            <img [src]="item.imge">
+            <div class="title">
+                <p class="title_p">{{item.name}}</p> 
+            </div>
+        </div>
+        
     </div>
 
 </div>

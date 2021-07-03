@@ -7,15 +7,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Section2Component implements OnInit {
 
-  images : any = [
-    "assets/img/events/Event1.jpg",
-    "assets/img/events/Event10.jpg",
-    "assets/img/events/Event11.jpg",
-  ]
+  images : any = []
 
   constructor() { }
 
   ngOnInit(): void {
+    this.img()
   }
+img() {
+  this.images=[
+    {
+      imge: 'assets/img/events/Event1.jpg',
+      name: 'hftrse56u7iojstfhbnm,'
 
+    },
+    {
+      imge: 'assets/img/events/Event10.jpg',
+      name: 'hftrse56u7iojstfhbnm,'
+
+    },
+    {
+      imge: 'assets/img/events/Event11.jpg',
+      name: 'hftrse56u7iojstfhbnm,'
+
+    }
+  ]
+}
 }
