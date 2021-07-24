@@ -1,5 +1,4 @@
 .awards{
-    border: 3px solid black;
     padding: 20px 2%;
     .div1{
         text-align: center;
@@ -23,7 +22,7 @@
 .div3{
     padding: 0px 10%;
     .wholeCarousel{
-        border: 2px solid red;
+        padding: 50px 0px;
         margin: 0% 10%;
         .slide{
             height: 200px;
@@ -31,4 +30,21 @@
         }
     }
 
+}
+
+.slider{
+    position: relative;
+    &_btn{
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        cursor: pointer;
+        
+        &_bbb{
+            font-size: 70px;
+            border: none;
+            background-color: white;
+        }
+       
+    }
 }
