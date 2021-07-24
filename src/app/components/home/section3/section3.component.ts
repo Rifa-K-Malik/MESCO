@@ -16,19 +16,19 @@ export class Section3Component implements OnInit {
 awd() {
   this.mesco = [
     {
-      title: 'Adtuhmbiolk',
+      title: 'Condolence Meeting',
       img: 'assets/img/certificates/certi1.jpg'
     },
     {
-      title: 'Adtuhmbiolk',
+      title: 'Zakat Appeal',
       img: 'assets/img/certificates/certi2.jpg'
     },
     {
-      title: 'Adtuhmbiolk',
+      title: 'Congratulates Jaykumar Vaidya!',
       img: 'assets/img/certificates/certi3.jpg'
     },
     {
-      title: 'Adtuhmbiolk',
+      title: 'MESCO In Media',
       img: 'assets/img/certificates/certi4.jpg'
     },
 
