@@ -1,0 +1,40 @@
+.section5{
+    background-color: rgb(241, 237, 237);
+    .content{
+        width: 50%;
+        padding: 5%;
+        .heading{
+            margin-left: 20px;
+            p{
+                font-weight: bold;
+                font-size: 30px;
+                color: black;
+            }
+        }
+        .underline{
+            margin-left: 20px;
+            border: 2px solid #9c0303;
+            width: 30px;
+            margin-bottom: 20px;
+        }
+        mat-card{
+            padding-bottom: 50px;
+            font-size: 16px;
+            height: 500px;
+            width: 100%;
+            p{
+                margin-top: 20px;
+                font-weight: 500;
+                font-size: 17px;
+                color: black;
+                margin-bottom: 0px;
+            }
+            .red{
+                margin-top: 5px;
+                font-size: 17px;
+                color: #9c0303;
+                font-weight: 400;
+            }
+        }
+    }
+}

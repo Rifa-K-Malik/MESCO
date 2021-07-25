@@ -1,1 +1,21 @@
-<p>section5 works!</p>
+<div class="section5 d-flex">
+    <div class="content" *ngFor="let stories of people">
+        <div class="heading">
+            <p>
+                {{stories.title}}
+            </p>
+        </div>
+        <div class="underline">
+
+        </div>
+        <mat-card>
+                {{stories.story}}
+            <p>
+                {{stories.name}}
+            </p>
+            <p class="red">
+                {{stories.name2}}
+            </p>
+        </mat-card>
+    </div>
+</div>
