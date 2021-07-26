@@ -10,9 +10,9 @@
         <div class="tabs mt-3">
             <ul>
                 <li>Home</li>
-                <li>About Us</li>
-                <li>Our Work</li>
-                <li>Our News</li>
+                <li [matMenuTriggerFor]="aboutus">About Us</li>
+                <li [matMenuTriggerFor]="ourwork">Our Work</li>
+                <li [matMenuTriggerFor]="ournews">Our News</li>
                 <li>CSR</li>
                 <li>Career</li>
                 <li>Contact Us</li>
@@ -20,3 +20,72 @@
         </div>
     </div>
 </div>
+
+
+<mat-menu #aboutus="matMenu" class="mt-3" class="mat-menu">
+        <div class="matitems">
+            <ul>
+                <li mat-menu-item>
+                   MESCO at Glance
+                </li>
+                <li mat-menu-item>
+                   Managing Commitee
+                </li>
+                <li mat-menu-item>
+                    Our Team
+                </li>
+                <li mat-menu-item>
+                   Good Governance
+                </li>
+                <li mat-menu-item>
+                    Institute
+                 </li>
+
+            </ul>
+        </div>
+</mat-menu>
+
+<mat-menu #ourwork="matMenu" class="mt-3" class="mat-menu">
+    <div class="matitems">
+        <ul>
+            <li mat-menu-item>
+               Educational Scholarships
+            </li>
+            <li mat-menu-item>
+               Madical Aid
+            </li>
+            <li mat-menu-item>
+                Clinic And Dispensaries
+            </li>
+            <li mat-menu-item>
+               Genral Aid
+            </li>
+            <li mat-menu-item>
+                RC Mahim Mun. School Adoptaion
+             </li>
+             <li mat-menu-item>
+                Old Newspaper Units
+             </li>
+
+        </ul>
+    </div>
+</mat-menu>
+
+<mat-menu #ournews="matMenu" class="mt-3" class="mat-menu">
+    <div class="matitems">
+        <ul>
+            <li mat-menu-item>
+               In Media
+            </li>
+            <li mat-menu-item>
+               Newsletters
+            </li>
+            <li mat-menu-item>
+                Annual Reports
+            </li>
+            <li mat-menu-item>
+              Success Stories
+            </li>
+        </ul>
+    </div>
+</mat-menu>
