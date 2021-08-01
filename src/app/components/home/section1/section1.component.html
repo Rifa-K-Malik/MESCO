@@ -1,13 +1,20 @@
-
 <div class="slider">
     <div class="wholeCarousel">
         <owl-carousel-o [options]="customOptions" #owlCar1>
 
             <ng-container *ngFor="let item of images">
                 <ng-template carouselSlide>
-                    <div class="slide">
-                        <img [src]="item" style="height: 400px;" alt="">
+
+                    <div class="text">
+                        <div>
+                            <h1> {{item.text}} </h1>
+                        </div>
+                       
                     </div>
+                    <div class="slide">
+                        <img [src]="item.img" style="height: 400px;" alt="">
+                    </div>
+
                 </ng-template>
 
             </ng-container>
@@ -15,5 +22,6 @@
 
         </owl-carousel-o>
     </div>
+
 
 </div>

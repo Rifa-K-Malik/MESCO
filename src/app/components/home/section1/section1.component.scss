@@ -1,6 +1,23 @@
-
-.slide{
-    z-index: 1;
+.slider{
+    position: relative;
+}
+// .slide{
+//     z-index: 1;
+// }
+.text{
+    position: absolute;
+    background-image: url("/assets/img/Red_Chilly_Curtain.png");
+    height: 100%;
+    width: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    h1{
+        padding-top: 300px;
+        padding-left: 50px;
+        color: white;
+        font-size: 40px; 
+  }
 }
 
 

@@ -9,17 +9,37 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class Section1Component implements OnInit {
 
-  images : any = [
-    "assets/img/EducationAid.jpg",
-    "assets/img/africa-wallpapers.jpg",
-    "assets/img/MedicalAid.jpg",
-    "assets/img/ClinicsDispensaries.jpg",
-  ]
+  images : any = []
 
   constructor() { }
 
   ngOnInit(): void {
+    this.slides()
   }
+
+  slides() {
+    this.images = [
+      {
+        img: 'assets/img/EducationAid.jpg',
+        text: 'EDUCATIOAL SCHOLARSHIPS'
+      },
+      {
+        img: 'assets/img/PovertyRelief.jpg',
+        text: 'POVERTY RELIEF'
+      },
+      {
+        img: 'assets/img/MedicalAid.jpg',
+        text: 'MEDICAL AID'
+      },
+      {
+        img: 'assets/img/ClinicsDispensaries.jpg',
+        text: 'CLINIC AND DISPENSARIES'
+      },
+  
+    ]
+  }
+
+
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
