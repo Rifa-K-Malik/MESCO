@@ -18,17 +18,17 @@ img() {
   this.images=[
     {
       imge: 'assets/img/events/Event1.jpg',
-      name: 'hftrse56u7iojstfhbnm,'
+      name: 'Lorem ipsum dollar'
 
     },
     {
       imge: 'assets/img/events/Event10.jpg',
-      name: 'hftrse56u7iojstfhbnm,'
+      name: 'Sewing machine distribution program'
 
     },
     {
       imge: 'assets/img/events/Event11.jpg',
-      name: 'hftrse56u7iojstfhbnm,'
+      name: 'Mrgzxc dgdiwdl bxblwiqp'
 
     }
   ]

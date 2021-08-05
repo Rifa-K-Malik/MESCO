@@ -21,19 +21,23 @@ export class Section1Component implements OnInit {
     this.images = [
       {
         img: 'assets/img/EducationAid.jpg',
-        text: 'EDUCATIOAL SCHOLARSHIPS'
+        text: 'EDUCATIOAL SCHOLARSHIPS',
+        desc: `Lorem ipsum dollor sit`
       },
       {
         img: 'assets/img/PovertyRelief.jpg',
-        text: 'POVERTY RELIEF'
+        text: 'POVERTY RELIEF',
+        desc: `Numquam animi quo`
       },
       {
         img: 'assets/img/MedicalAid.jpg',
-        text: 'MEDICAL AID'
+        text: 'MEDICAL AID',
+        desc: `Sapiente quidem harum architecto placeat.`
       },
       {
         img: 'assets/img/ClinicsDispensaries.jpg',
-        text: 'CLINIC AND DISPENSARIES'
+        text: 'CLINIC AND DISPENSARIES',
+        desc: `Alias assumenda repellendus eveniet.`
       },
   
     ]
