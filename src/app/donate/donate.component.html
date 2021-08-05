@@ -1,0 +1,39 @@
+<div class=" container-fluid donate">
+    <app-topheader></app-topheader>
+    <app-mainheader></app-mainheader>
+    <div class="row content">
+        <div class="col-md-6">
+            lorem
+        </div>
+        <div class="col-md-6">
+            <mat-card>
+                <div class="heading">
+                    <p>
+                        Payment Details
+                    </p>
+                </div>
+                <div class="underline">
+
+                </div>
+                <p>
+                    Payment can be made by NEFT,RTGS.
+                </p>
+                <div class="detail" *ngFor="let detail of bank">
+                    <p class="d-p">
+                        <span class="bold">
+                            {{detail.title}}
+                        </span>
+                        <span>
+                            {{detail.des}}
+                        </span>
+                        
+                    </p>
+                </div>
+                <p>
+                    Kindly intimate the payment details to us as well as retain copy of DD / Bank Pay-in slip.
+                </p>
+            </mat-card>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
