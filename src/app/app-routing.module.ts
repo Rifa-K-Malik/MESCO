@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { DonateComponent } from './donate/donate.component';
-import { VolunterComponent } from './volunter/volunter.component';
+import { MdonateComponent } from './components/mdonate/mdonate.component';
+import { NoticeeventsComponent } from './components/noticeevents/noticeevents.component';
+import { VolunteerComponent } from './components/volunteer/volunteer.component';
 
 const routes: Routes = [
   {
@@ -16,11 +17,15 @@ const routes: Routes = [
   },
     {
     path: 'donate',
-    component: DonateComponent
+    component: MdonateComponent
   },
     {
     path: 'volunteer',
-    component: VolunterComponent
+    component: VolunteerComponent
+  },
+  {
+    path: 'notice',
+    component: NoticeeventsComponent
   },
 ];
 

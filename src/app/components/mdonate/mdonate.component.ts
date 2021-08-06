@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-donate',
-  templateUrl: './donate.component.html',
-  styleUrls: ['./donate.component.scss']
+  selector: 'app-mdonate',
+  templateUrl: './mdonate.component.html',
+  styleUrls: ['./mdonate.component.scss']
 })
-export class DonateComponent implements OnInit {
-bank: any = []
+export class MdonateComponent implements OnInit {
+  bank: any = []
 
   constructor() { }
 

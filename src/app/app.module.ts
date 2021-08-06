@@ -17,8 +17,9 @@ import { Section5Component } from './components/home/section5/section5.component
 import { Section6Component } from './components/home/section6/section6.component';
 import { Section7Component } from './components/home/section7/section7.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { DonateComponent } from './donate/donate.component';
-import { VolunterComponent } from './volunter/volunter.component';
+import { VolunteerComponent } from './components/volunteer/volunteer.component';
+import { MdonateComponent } from './components/mdonate/mdonate.component';
+import { NoticeeventsComponent } from './components/noticeevents/noticeevents.component';
 
 @NgModule({
   declarations: [
@@ -34,8 +35,9 @@ import { VolunterComponent } from './volunter/volunter.component';
     Section5Component,
     Section6Component,
     Section7Component,
-    DonateComponent,
-    VolunterComponent
+    VolunteerComponent,
+    MdonateComponent,
+    NoticeeventsComponent
   ],
   imports: [
     BrowserModule,

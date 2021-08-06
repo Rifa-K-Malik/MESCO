@@ -1,0 +1,93 @@
+.donate{
+
+    .content{
+        background-color: rgb(235, 235, 235);
+        padding: 5%;
+        .left{
+            .l-img{
+                font-size: 40px;
+                font-weight: bold;
+                color: black;
+                margin-bottom: 50px;
+                img{
+                    height: 50px;
+                }
+            }
+            .l-help{
+                width: 50%;
+                line-height: 35px;
+                font-size: 30px;
+                margin-bottom: 50px;
+            }
+            .l-button{
+                button{
+                    background-color: #9c0303;
+                    border-radius: 20px;
+                    width: 250px;
+                    color: white;
+                    margin: 10px 10px;
+                    border: 2px solid #9c0303;
+                    .p1{
+                       font-size: 25px;
+                    }
+                    .p2{
+                        font-size: 12px;
+                        margin-bottom: 0px;
+                    }
+                    &:hover{
+                        background-color: white;
+                        color: #9c0303;
+                    }
+                }
+            }
+            .l-contactus{
+                margin-top: 30px;
+                span{
+                    color: #9c0303;
+                    font-size: 20px;
+                }
+            }
+        }
+        .right{
+            mat-card{
+                padding: 30px;
+            .heading{
+                
+                p{
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: black;
+                }
+            }
+            .underline{
+                
+                border: 2px solid #9c0303;
+                width: 50px;
+                margin-bottom: 20px;
+            }
+            .detail{
+                .d-p{
+                    .bold{
+                        font-weight: bold;
+                    }
+                }
+            }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
