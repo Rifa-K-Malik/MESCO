@@ -1,3 +1,23 @@
 .centercontent{
     width: 62%;
 }
+
+.button-events{
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    z-index: 10;
+    button{
+        background-color: #9c0303;
+        border-radius: 40px;
+        color: white;
+        font-size: 20px;
+        margin: 10px 10px;
+        border: 2px solid #9c0303;
+        &:hover{
+            background-color: white;
+            color: #9c0303;
+        }
+    }
+
+}
