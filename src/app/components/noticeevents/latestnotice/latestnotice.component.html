@@ -1,0 +1,13 @@
+<div class="n_section3">
+    <div class="div1">
+        <p>Notice 2021</p>
+    </div>
+    <div class="div2">
+    </div>
+    <div class="achivement">
+        <div *ngFor="let awards of mesco" class="content">
+            <img [src]="awards.img" alt="" class="img-fluid">
+            <p class="title">{{awards.title}}</p>
+        </div>
+    </div>
+</div>

@@ -20,6 +20,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { VolunteerComponent } from './components/volunteer/volunteer.component';
 import { MdonateComponent } from './components/mdonate/mdonate.component';
 import { NoticeeventsComponent } from './components/noticeevents/noticeevents.component';
+import { LatesteventComponent } from './components/noticeevents/latestevent/latestevent.component';
+import { LatestnoticeComponent } from './components/noticeevents/latestnotice/latestnotice.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { NoticeeventsComponent } from './components/noticeevents/noticeevents.co
     Section7Component,
     VolunteerComponent,
     MdonateComponent,
-    NoticeeventsComponent
+    NoticeeventsComponent,
+    LatesteventComponent,
+    LatestnoticeComponent
   ],
   imports: [
     BrowserModule,

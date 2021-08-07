@@ -2,6 +2,7 @@
     .heading_n{
         height: 200px;
         width: 100%;
+        margin: 0;
         background-color: #9c0303;
         display: flex;
         align-items: center;
@@ -11,4 +12,31 @@
             font-size: 35px;
         }
     }
+}
+
+.cardnotice{
+    margin: 50px 0px;
+    mat-card{
+        // margin: 0px 100px;
+        background-color: rgb(235, 235, 235);
+        .row{
+            .l_cn{
+                text-align: center;
+                font-size: 30px;
+                border-right: 1px solid #9c0303;
+                color: #9c0303;
+                font-weight: bold;
+                padding-top: 30px;
+                letter-spacing: 1px;
+            }
+            .r_cn{
+                p{
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+
 }

@@ -1,8 +1,33 @@
-<div class="notice">
+<div class="container-fluid notice">
     <app-topheader></app-topheader>
-<app-mainheader></app-mainheader>
-<div class="heading_n">
-    <p>Events & Notice</p>
-</div>
+    <app-mainheader></app-mainheader>
+    <div class="heading_n">
+        <p>Events & Notice</p>
+    </div>
+    <div class="container">
+        <app-latestevent></app-latestevent>
+        <app-latestnotice></app-latestnotice>
+        <div class="cardnotice">
+            <mat-card>
+                <div class="row">
+                    <div class="col-sm-3 l_cn">
+                        <p>NOTICE</p>
+                    </div>
+                    <div class="col-sm-9 r_cn">
+                        <p>August 2021</p>
+                        <ul>
+                            <li>General Medical Aid (GMA) & High Cost Medical Aid (HCMA) Form issued on 1st, 2nd & 3rd
+                                of every
+                                month. If either of the dates falls on Sunday, then next day forms will be issued</li>
+                            <li>Sewing Machine Form issued on 10th of every month. If either of the dates falls on
+                                Sunday, then
+                                next day forms will be issued</li>
+                        </ul>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+    </div>
+
 </div>
 <app-footer></app-footer>

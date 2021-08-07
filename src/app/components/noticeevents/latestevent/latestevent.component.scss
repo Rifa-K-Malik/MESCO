@@ -1,0 +1,49 @@
+.n_section2{
+    margin-top: 50px;
+    .div1{
+        text-align: center;
+        p{
+            font-weight: bold;
+            font-size: 30px;
+            color: black;
+        }
+    }
+    .div2{
+        border: 2px solid #9c0303;
+        text-align: center;
+        margin: auto;
+        width: 70px;
+
+        
+    }
+}
+
+.div3{
+    padding: 0px 10%;
+    .wholeCarousel{
+        padding: 50px 0px;
+        margin: 0% 10%;
+        .slide{
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+}
+
+.slider{
+    position: relative;
+    &_btn{
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        cursor: pointer;
+        
+        &_bbb{
+            font-size: 70px;
+            border: none;
+            background-color: white;
+        }
+       
+    }
+}
