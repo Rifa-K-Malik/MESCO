@@ -7,16 +7,54 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   styleUrls: ['./latestevent.component.scss']
 })
 export class LatesteventComponent implements OnInit {
-  images : any = [
-    "assets/img/awards/award1.jpg",
-    "assets/img/awards/award2.png",
-    "assets/img/awards/award3.jpg",
-    "assets/img/awards/award4.jpg",
-  ]
+  images : any = []
+
   constructor() { }
 
   ngOnInit(): void {
+    this.img()
   }
+
+  img() {
+    this.images=[
+      {
+        imge: 'assets/img/events/Event0.png',
+        name: 'Lorem ipsum dollar'
+  
+      },
+      {
+        imge: 'assets/img/events/Event1.jpg',
+        name: '52nd Annual General Meeting'
+  
+      },
+      {
+        imge: 'assets/img/events/Event2.jpg',
+        name: '52nd Annual General Meeting'
+  
+      },
+      {
+        imge: 'assets/img/events/Event3.jpg',
+        name: '52nd Annual General Meeting'
+  
+      },
+      {
+        imge: 'assets/img/events/Event10.jpg',
+        name: 'Sewing machine distribution program'
+  
+      },
+      {
+        imge: 'assets/img/events/Event11.jpg',
+        name: 'Lorem ipsum dollar'
+  
+      },
+      {
+        imge: 'assets/img/events/Event12.jpg',
+        name: 'Sewing machine distribution program'
+  
+      }
+    ]
+  }
+
   customOptions: OwlOptions = {
     // loop: true,
     mouseDrag: true,

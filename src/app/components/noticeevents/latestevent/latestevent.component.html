@@ -24,8 +24,9 @@
         
                     <ng-container *ngFor="let item of images">
                         <ng-template carouselSlide>
-                            <div class="slide">
-                                <img [src]="item" alt="">
+                            <div class="slide card mat-elevation-z5">
+                                <img [src]="item.imge" alt="">
+                                <p>{{item.name}}</p>
                             </div>
                         </ng-template>
         

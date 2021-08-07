@@ -16,36 +16,40 @@ export class LatestnoticeComponent implements OnInit {
 awd() {
   this.mesco = [
     {
-      title: 'Condolence Meeting',
-      img: 'assets/img/certificates/certi1.jpg'
+      title: 'SSC TOPPER 2020-21',
+      img: 'assets/img/certificates/SSCTopper.jpg'
+    },
+    {
+      title: 'Vacancy Announcement',
+      img: 'assets/img/certificates/Announcement1.jpg'
+    },
+    {
+      title: 'Vacancy Announcement',
+      img: 'assets/img/certificates/Announcement2.jpg'
+    },
+    {
+      title: 'NEET Topper 2019-20',
+      img: 'assets/img/certificates/NEETTopper.png'
+    },
+    {
+      title: 'Vacancy Announcement',
+      img: 'assets/img/certificates/Announcement3.jpg'
+    },
+    {
+      title: 'Vacancy Announcement',
+      img: 'assets/img/certificates/Announcement4.jpg'
     },
     {
       title: 'Zakat Appeal',
-      img: 'assets/img/certificates/certi2.jpg'
-    },
-    {
-      title: 'Congratulates Jaykumar Vaidya!',
-      img: 'assets/img/certificates/certi3.jpg'
-    },
-    {
-      title: 'MESCO In Media',
-      img: 'assets/img/certificates/certi4.jpg'
-    },
-    {
-      title: 'Condolence Meeting',
       img: 'assets/img/certificates/certi1.jpg'
     },
     {
-      title: 'Zakat Appeal',
-      img: 'assets/img/certificates/certi2.jpg'
+      title: 'HSC Topper 2019-20',
+      img: 'assets/img/certificates/HSCTopper.jpg'
     },
     {
       title: 'Congratulates Jaykumar Vaidya!',
-      img: 'assets/img/certificates/certi3.jpg'
-    },
-    {
-      title: 'MESCO In Media',
-      img: 'assets/img/certificates/certi4.jpg'
+      img: 'assets/img/certificates/certi2.jpg'
     },
 
   ]
